@@ -37,6 +37,7 @@ import {
   ChevronDown,
   Check,
   Table2,
+  Share2,
 } from "lucide-react";
 import { useWfmStore } from "@/lib/store";
 import { APP_VERSION } from "@/lib/config";
@@ -61,6 +62,7 @@ const NAV_CONFIG = [
   { href: "/app/adherence", labelKey: "nav.adherence", icon: UserCheck, sectionKey: "nav.analytics" },
   { href: "/app/reports", labelKey: "nav.reports", icon: FileBarChart, sectionKey: "nav.analytics" },
   { href: "/app/studio", labelKey: "nav.studio", icon: LayoutTemplate, sectionKey: "nav.analytics" },
+  { href: "/app/shared", labelKey: "nav.shared", icon: Share2, sectionKey: "nav.admin" },
   { href: "/app/import", labelKey: "nav.import", icon: Upload, sectionKey: "nav.data" },
   { href: "/app/explorer", labelKey: "nav.explorer", icon: Table2, sectionKey: "nav.data" },
   { href: "/app/data-health", labelKey: "nav.datahealth", icon: Database, sectionKey: "nav.data" },
@@ -80,7 +82,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   const tx = useTx();
   const pathname = usePathname();
   const router = useRouter();
-  const { sidebarOpen, toggleSidebar, datasetName, datasetIsDemo, dataHealth, orgName, userName, userEmail, userRole, intervals, loadDemoData } = useWfmStore();
+  const { sidebarOpen, toggleSidebar, datasetName, datasetIsDemo, dataHealth, orgName, userName, userEmail, userRole, intervals, loadDemoData, filters } = useWfmStore();
   const { t, locale } = useI18n();
 
   const [searchOpen, setSearchOpen] = useState(false);
@@ -597,6 +599,26 @@ export function AppShell({ children }: { children: ReactNode }) {
         )}
 
         {/* Page content */}
+        {/* Shown only when printing (Download > PDF): brand, organization, data source and date. */}
+        <div className="print-only mb-4 flex items-end justify-between gap-4 border-b border-[var(--border-default)] pb-2 text-[11px] text-[var(--text-secondary)]">
+          <div>
+            <div className="text-sm font-bold text-[var(--text-primary)]">WFM Rescue</div>
+            <div>{orgName}</div>
+          </div>
+          <div className="text-right">
+            <div>{datasetName}</div>
+            {(() => {
+              const parts: string[] = [];
+              const add = (label: string, values: string[]) => { if (values.length) parts.push(`${label}: ${values.join(", ")}`); };
+              add(tx("Colas", "Queues"), filters.queues);
+              add(tx("Canales", "Channels"), filters.channels);
+              add(tx("Sitios", "Sites"), filters.sites);
+              add(tx("Skills", "Skills"), filters.skills);
+              return <div>{tx("Filtros", "Filters")}: {parts.length ? parts.join(" · ") : tx("ninguno", "none")}</div>;
+            })()}
+            <div>{tx("Generado", "Generated")} {new Date().toLocaleDateString(locale === "es" ? "es-ES" : "en-US", { dateStyle: "medium" })}</div>
+          </div>
+        </div>
         <main className="flex-1 p-4 lg:p-6 max-w-[1600px] w-full mx-auto animate-fade-in">{children}</main>
 
         <footer className="px-6 py-4 text-[11px] text-[var(--text-quaternary)] border-t border-[var(--border-subtle)] flex flex-wrap items-center justify-between gap-2 shrink-0">

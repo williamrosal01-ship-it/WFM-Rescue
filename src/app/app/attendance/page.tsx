@@ -11,6 +11,8 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGri
 import Link from "next/link";
 import { CalendarCheck, Clock, UserX, TrendingUp } from "lucide-react";
 import { useMemo } from "react";
+import { ShareReportButton } from "@/components/share-report-button";
+import { buildAttendanceContent } from "@/lib/report-snapshot";
 
 export default function AttendancePage() {
   const tx = useTx();
@@ -64,7 +66,7 @@ export default function AttendancePage() {
 
   return (
     <div>
-      <SectionHeader title={tx("Asistencia", "Attendance")} description={tx("Tasa de asistencia, ausentismo y tardanzas. Impacto directo en tu capacidad disponible.", "Attendance rate, absenteeism and tardiness. Direct impact on your available capacity.")} actions={<div className="flex flex-wrap items-center justify-end gap-2"><IntervalExport rows={rows} name="attendance" />{<Link href="/app/nlh"><Button variant="ghost" size="sm">{tx("Ver NLH →", "View NLH →")}</Button></Link>}</div>} />
+      <SectionHeader title={tx("Asistencia", "Attendance")} description={tx("Tasa de asistencia, ausentismo y tardanzas. Impacto directo en tu capacidad disponible.", "Attendance rate, absenteeism and tardiness. Direct impact on your available capacity.")} actions={<div className="flex flex-wrap items-center justify-end gap-2"><ShareReportButton title={tx("Asistencia", "Attendance")} getContent={() => buildAttendanceContent(rows, tx("es", "en") as "es" | "en")} /><IntervalExport rows={rows} name="attendance" />{<Link href="/app/nlh"><Button variant="ghost" size="sm">{tx("Ver NLH →", "View NLH →")}</Button></Link>}</div>} />
       <FilterBar />
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">

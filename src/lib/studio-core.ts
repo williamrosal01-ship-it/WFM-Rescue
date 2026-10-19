@@ -4,7 +4,7 @@ import type { IntervalRecord } from "./types";
 export type Locale = "es" | "en";
 export type LocalizedText = string | { es: string; en: string };
 
-export type ChartKind = "kpi" | "bar" | "stacked" | "line" | "donut" | "table";
+export type ChartKind = "kpi" | "bar" | "stacked" | "line" | "area" | "donut" | "table";
 export type Dimension = "interval" | "date" | "queue" | "channel" | "site" | "skill";
 export type Agg = "sum" | "avg" | "min" | "max" | "count";
 export type MetricId =
@@ -92,6 +92,7 @@ export const CHART_KINDS: Array<{ id: ChartKind; label: { es: string; en: string
   { id: "bar", label: { es: "Barras", en: "Bars" }, hint: { es: "Comparar categorías", en: "Compare categories" } },
   { id: "stacked", label: { es: "Barras apiladas", en: "Stacked bars" }, hint: { es: "Partes de un total por categoría", en: "Parts of a total per category" } },
   { id: "line", label: { es: "Líneas", en: "Lines" }, hint: { es: "Tendencia en intervalos o días", en: "Trend over intervals or days" } },
+  { id: "area", label: { es: "Área", en: "Area" }, hint: { es: "Volumen en el tiempo (una o dos series)", en: "Volume over time (one or two series)" } },
   { id: "donut", label: { es: "Dona", en: "Donut" }, hint: { es: "Participación de un total (1 métrica)", en: "Share of a total (1 metric)" } },
   { id: "table", label: { es: "Tabla", en: "Table" }, hint: { es: "Detalle con varias métricas", en: "Detail with several metrics" } },
 ];

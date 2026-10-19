@@ -31,7 +31,7 @@ export function FilterBar() {
   ];
 
   return (
-    <div className="space-y-3 mb-5 sticky top-14 z-20 bg-[var(--bg-canvas)]/80 backdrop-blur-sm -mx-4 lg:-mx-6 px-4 lg:px-6 py-2 -mt-6 mb-4 border-b border-[var(--border-subtle)] lg:border-0 lg:static lg:bg-transparent lg:backdrop-blur-none lg:p-0 lg:mx-0 lg:mt-0">
+    <div className="wr-print-hide space-y-3 mb-5 sticky top-14 z-20 bg-[var(--bg-canvas)]/80 backdrop-blur-sm -mx-4 lg:-mx-6 px-4 lg:px-6 py-2 -mt-6 mb-4 border-b border-[var(--border-subtle)] lg:border-0 lg:static lg:bg-transparent lg:backdrop-blur-none lg:p-0 lg:mx-0 lg:mt-0">
       <div className="flex flex-wrap items-center gap-2 surface p-3">
         <Filter className="h-4 w-4 text-[var(--text-tertiary)] shrink-0" />
         <Select

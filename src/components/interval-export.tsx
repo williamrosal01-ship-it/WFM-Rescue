@@ -6,7 +6,6 @@ import type { IntervalRecord } from "@/lib/types";
 import { useTx } from "@/lib/tx";
 import { useI18n } from "@/lib/i18n";
 import type { ExportRow, ExportValue } from "@/lib/export";
-import { buildPreset } from "@/lib/report-presets";
 
 // Human headers for the interval fields; anything else keeps its raw key.
 const FIELD_LABEL: Record<string, [string, string]> = {
@@ -83,7 +82,6 @@ export function IntervalExport({ rows, name }: { rows: IntervalRecord[]; name: s
   const title = PAGE_TITLE[name] ? tx(PAGE_TITLE[name][0], PAGE_TITLE[name][1]) : name;
   const { locale } = useI18n();
   const exportRows = useMemo(() => intervalExportRows(rows, locale), [rows, locale]);
-  const preset = useMemo(() => buildPreset(name, rows, locale), [name, rows, locale]);
   return (
     <ExportMenu
       name={`wfm-${name}`}
@@ -91,7 +89,6 @@ export function IntervalExport({ rows, name }: { rows: IntervalRecord[]; name: s
       subtitle={tx(`${rows.length.toLocaleString("es-ES")} intervalos con los filtros globales aplicados`, `${rows.length.toLocaleString("en-US")} intervals with the global filters applied`)}
       sections={[{ name: tx("Intervalos", "Intervals"), title: tx("Datos del periodo filtrado", "Filtered period data"), rows: exportRows }]}
       disabled={rows.length === 0}
-      pdf={preset ? { kpis: preset.kpis, charts: preset.charts, tableTitle: preset.tableTitle, table: preset.table } : undefined}
     />
   );
 }

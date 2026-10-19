@@ -4,7 +4,6 @@ import { useWfmStore } from "@/lib/store";
 import { KpiCard, Card, SectionHeader, Chip, EmptyState, Button } from "@/components/ui";
 import { ExportMenu } from "@/components/export-menu";
 import { CHART } from "@/lib/chart-palette";
-import { formatValue } from "@/lib/pdf-report";
 import { useI18n } from "@/lib/i18n";
 import { FilterBar } from "@/components/filters";
 import { ChartGradients, tooltipStyle, gridProps, tickStyle } from "@/components/charts";
@@ -13,6 +12,8 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGri
 import Link from "next/link";
 import { ShieldAlert, Timer, AlertTriangle, Coffee } from "lucide-react";
 import { useMemo } from "react";
+import { ShareReportButton } from "@/components/share-report-button";
+import { buildAuxContent } from "@/lib/report-snapshot";
 
 const AUX_THRESHOLD_SEC = 900; // 15 min per interval = exceeds
 
@@ -69,26 +70,6 @@ export default function AuxReportPage() {
 
   const totalAuxSec = byCode.reduce((a,b)=>a+b.totalSec,0);
   const totalExceeds = exceeds.length;
-  const { locale: pdfLocale } = useI18n();
-  const auxPdf = {
-    kpis: [
-      { label: tx("Tiempo AUX total", "Total AUX time"), value: `${formatValue(totalAuxSec / 60, "int", pdfLocale)} min`, note: tx("Tiempo no productivo", "Non-productive time") },
-      { label: tx("Códigos AUX", "AUX codes"), value: formatValue(byCode.length, "int", pdfLocale) },
-      { label: tx("Excesos", "Excesses"), value: formatValue(totalExceeds, "int", pdfLocale), tone: totalExceeds > 0 ? ("warn" as const) : ("good" as const) },
-    ],
-    charts: [
-      {
-        title: tx("Tiempo AUX por código (minutos)", "AUX time by code (minutes)"),
-        subtitle: tx("Rojo: código por encima del umbral medio · Turquesa: resto", "Red: code above the average threshold · Teal: rest"),
-        categories: byCode.map((r) => r.code),
-        format: "int" as const,
-        series: [{ name: tx("Minutos", "Minutes"), color: CHART.actual, values: byCode.map((r) => Math.round(r.totalSec / 60)) }],
-        barColors: byCode.map((r) => (r.totalSec > (AUX_THRESHOLD_SEC * byCode.length) / 2 ? CHART.bad : CHART.actual)),
-      },
-    ],
-    tableTitle: tx("Resumen por código AUX", "Summary by AUX code"),
-    table: byCode.map((r) => ({ [tx("Código AUX", "AUX code")]: r.code, [tx("Intervalos", "Intervals")]: r.count, [tx("Tiempo total (min)", "Total time (min)")]: Math.round(r.totalSec / 60), [tx("Agentes", "Agents")]: r.agents, [tx("Exceso (min)", "Excess (min)")]: r.exceeds })),
-  };
 
   if(auxRows.length===0){
     return <div><SectionHeader title={tx("AUX — Análisis Detallado", "AUX — Detailed analysis")} description="Desglose de tiempo no-productivo por código AUX." /><FilterBar /><Card><EmptyState icon={<ShieldAlert className="h-5 w-5"/>} title="No hay datos AUX" description="Importa datos de adherencia con códigos AUX o carga la demo." action={<Link href="/app/import"><Button variant="accent">Importar</Button></Link>} /></Card></div>;
@@ -96,7 +77,7 @@ export default function AuxReportPage() {
 
   return (
     <div>
-      <SectionHeader title={tx("AUX — Análisis Detallado", "AUX — Detailed analysis")} description={tx("Desglose de tiempo no-productivo por código AUX. Detecta excesos, compara planificado vs no-planificado.", "Breakdown of unproductive time by AUX code. Detects excesses, compares planned vs unplanned.")} actions={<div className="flex flex-wrap items-center gap-2"><ExportMenu name="aux-detail" title={tx("AUX — Análisis Detallado", "AUX — Detailed analysis")} sections={[{name:"aux-codes", title:tx("AUX por código","AUX by code"), rows: byCode.map(r=>({[tx("Código AUX","AUX code")]: r.code, [tx("Intervalos","Intervals")]: r.count, [tx("Tiempo total (min)","Total time (min)")]: Math.round(r.totalSec/60), [tx("Promedio (min)","Average (min)")]: Math.round(r.avgSec/60*10)/10, [tx("Agentes","Agents")]: r.agents, [tx("Exceso (min)","Excess (min)")]: r.exceeds}))}, {name:"aux-exceeds", title:tx("Excesos por agente","Excesses by agent"), rows: exceeds.map(r=>({[tx("Agente","Agent")]: r.agent, [tx("Código AUX","AUX code")]: r.code, [tx("Tiempo (min)","Time (min)")]: Math.round(r.sec/60), [tx("Exceso (min)","Excess (min)")]: r.exceeds}))}]} pdf={auxPdf} /><Link href="/app/adherence"><Button variant="ghost" size="sm">{tx("Ver Adherencia →", "View Adherence →")}</Button></Link></div>} />
+      <SectionHeader title={tx("AUX — Análisis Detallado", "AUX — Detailed analysis")} description={tx("Desglose de tiempo no-productivo por código AUX. Detecta excesos, compara planificado vs no-planificado.", "Breakdown of unproductive time by AUX code. Detects excesses, compares planned vs unplanned.")} actions={<div className="flex flex-wrap items-center gap-2"><ExportMenu name="aux-detail" title={tx("AUX — Análisis Detallado", "AUX — Detailed analysis")} sections={[{name:"aux-codes", title:tx("AUX por código","AUX by code"), rows: byCode.map(r=>({[tx("Código AUX","AUX code")]: r.code, [tx("Intervalos","Intervals")]: r.count, [tx("Tiempo total (min)","Total time (min)")]: Math.round(r.totalSec/60), [tx("Promedio (min)","Average (min)")]: Math.round(r.avgSec/60*10)/10, [tx("Agentes","Agents")]: r.agents, [tx("Exceso (min)","Excess (min)")]: r.exceeds}))}, {name:"aux-exceeds", title:tx("Excesos por agente","Excesses by agent"), rows: exceeds.map(r=>({[tx("Agente","Agent")]: r.agent, [tx("Código AUX","AUX code")]: r.code, [tx("Tiempo (min)","Time (min)")]: Math.round(r.sec/60), [tx("Exceso (min)","Excess (min)")]: r.exceeds}))}]} /><ShareReportButton title={tx("AUX — Análisis Detallado", "AUX — Detailed analysis")} getContent={() => buildAuxContent(agentIntervals, tx("es", "en") as "es" | "en")} /><Link href="/app/adherence"><Button variant="ghost" size="sm">{tx("Ver Adherencia →", "View Adherence →")}</Button></Link></div>} />
       <FilterBar />
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">

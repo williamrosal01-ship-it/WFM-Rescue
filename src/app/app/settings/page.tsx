@@ -8,6 +8,8 @@ import { useState, useEffect } from "react";
 import { useI18n, type Locale } from "@/lib/i18n";
 import { CURRENT_PLAN } from "@/lib/config";
 import { BackupCard } from "@/components/backup-card";
+import { BillingModelSection } from "@/components/billing-model-section";
+import { loadLoadedCost, saveLoadedCost } from "@/lib/cost-settings";
 
 export default function SettingsPage() {
   const tx = useTx();
@@ -17,6 +19,7 @@ export default function SettingsPage() {
   const [slThreshold, setSlThreshold] = useState(20);
   const [shrinkage, setShrinkage] = useState(32);
   const [loadedCost, setLoadedCost] = useState(28);
+  useEffect(() => { setLoadedCost(loadLoadedCost()); }, []);
   const [intervalMin, setIntervalMin] = useState(15);
   const [saved, setSaved] = useState(false);
   const [profiles, setProfiles] = useState<ImportProfile[]>([]);
@@ -25,6 +28,7 @@ export default function SettingsPage() {
   const sourceLabel = (t: string) => makeSourceLabels(tx)[t as keyof ReturnType<typeof makeSourceLabels>] ?? t;
 
   const handleSave = () => {
+    saveLoadedCost(loadedCost);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };
@@ -226,6 +230,8 @@ export default function SettingsPage() {
             </div>
           </div>
         </Card>
+
+        <BillingModelSection />
 
         <Card
           title={t("settings.profiles")}

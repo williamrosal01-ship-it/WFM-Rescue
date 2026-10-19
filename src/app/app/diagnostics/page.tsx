@@ -6,6 +6,7 @@ import { useWfmStore, selectFilteredIntervals } from "@/lib/store";
 import { SectionHeader, Card, Button, Chip, SeverityBadge, EmptyState, Callout } from "@/components/ui";
 import { FilterBar } from "@/components/filters";
 import { runDiagnostics, DEFAULT_LOADED_COST } from "@/lib/diagnostics";
+import { loadLoadedCost, saveLoadedCost } from "@/lib/cost-settings";
 import {
   AlertTriangle,
   ArrowRight,
@@ -20,14 +21,16 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useToast } from "@/components/toast";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { fmtCurrency, fmtInt, fmtPct, fmtSec } from "@/lib/formatters";
 
 export default function DiagnosticsPage() {
   const tx = useTx();
   const { showToast } = useToast();
   const { intervals, filters, diagnostics, setDiagnostics, agentIntervals } = useWfmStore();
-  const [loadedCost, setLoadedCost] = useState(DEFAULT_LOADED_COST);
+  const [loadedCost, setLoadedCostState] = useState(DEFAULT_LOADED_COST);
+  useEffect(() => { setLoadedCostState(loadLoadedCost()); }, []);
+  const setLoadedCost = (v: number) => { setLoadedCostState(v); saveLoadedCost(v); };
   const rows = useMemo(() => selectFilteredIntervals(intervals, filters), [intervals, filters]);
 
   const { locale } = useI18n();

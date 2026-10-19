@@ -8,6 +8,8 @@ import {
   Legend,
   Line,
   LineChart,
+  AreaChart,
+  Area,
   Pie,
   PieChart,
   ResponsiveContainer,
@@ -140,7 +142,8 @@ export function StudioWidgetView({ widget, rows }: { widget: Widget; rows: Inter
   }
 
   // bar / stacked / line share the cartesian data shape
-  const groups = result.groups.slice(0, widget.chart === "line" ? result.groups.length : BAR_MAX_GROUPS);
+  const timeSeries = widget.chart === "line" || widget.chart === "area";
+  const groups = result.groups.slice(0, timeSeries ? result.groups.length : BAR_MAX_GROUPS);
   const data = groups.map((g) => {
     const row: Record<string, string | number | null> = { label: g.label };
     g.values.forEach((v, i) => { row[`m${i}`] = v; });
@@ -156,7 +159,26 @@ export function StudioWidgetView({ widget, rows }: { widget: Widget; rows: Inter
       )}
       <div className="h-72 min-w-0">
         <ResponsiveContainer width="100%" height="100%">
-          {widget.chart === "line" ? (
+          {widget.chart === "area" ? (
+            <AreaChart data={data} margin={{ top: 8, right: 12, bottom: 4, left: 0 }}>
+              <defs>
+                {metricDefs.map((_d, i) => (
+                  <linearGradient key={i} id={`studio-area-${widget.id}-${i}`} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stopColor={STUDIO_PALETTE[i % STUDIO_PALETTE.length]} stopOpacity={0.45} />
+                    <stop offset="100%" stopColor={STUDIO_PALETTE[i % STUDIO_PALETTE.length]} stopOpacity={0.04} />
+                  </linearGradient>
+                ))}
+              </defs>
+              <CartesianGrid {...gridProps} />
+              <XAxis dataKey="label" tick={tickStyle} interval="preserveStartEnd" />
+              <YAxis tick={tickStyle} width={48} />
+              <Tooltip contentStyle={tooltipStyle} formatter={(v, name) => [fv(Number(v), metricDefs[Number(String(name).replace("m", ""))]?.format ?? "num"), metricDefs[Number(String(name).replace("m", ""))]?.label[loc] ?? name]} />
+              {metricDefs.length > 1 && <Legend formatter={(_v, entry) => metricDefs[Number(String(entry.dataKey).replace("m", ""))]?.label[loc] ?? ""} />}
+              {metricDefs.map((d, i) => (
+                <Area key={i} type="monotone" dataKey={`m${i}`} stroke={STUDIO_PALETTE[i % STUDIO_PALETTE.length]} strokeWidth={2} fill={`url(#studio-area-${widget.id}-${i})`} dot={false} connectNulls isAnimationActive={false} />
+              ))}
+            </AreaChart>
+          ) : widget.chart === "line" ? (
             <LineChart data={data} margin={{ top: 8, right: 12, bottom: 4, left: 0 }}>
               <CartesianGrid {...gridProps} />
               <XAxis dataKey="label" tick={tickStyle} interval="preserveStartEnd" />

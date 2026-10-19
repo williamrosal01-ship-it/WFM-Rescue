@@ -11,11 +11,14 @@ export function AuthCard({ title, subtitle, children, footer }: { title: string;
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-[var(--bg-canvas)]">
       <Link href="/" className="mb-6 inline-flex"><Logo size={40} /></Link>
-      <div className="w-full max-w-md card p-6">
-        <h1 className="text-xl font-bold text-[var(--text-primary)]">{title}</h1>
-        {subtitle && <p className="mt-1 text-sm text-[var(--text-secondary)]">{subtitle}</p>}
-        <div className="mt-5">{children}</div>
-        {footer && <div className="mt-5 text-sm text-[var(--text-secondary)] text-center">{footer}</div>}
+      {/* Width lives on the wrapper: the global .card rule would override max-w-md on the card itself. */}
+      <div className="w-full max-w-md">
+        <div className="card p-6">
+          <h1 className="text-xl font-bold text-[var(--text-primary)]">{title}</h1>
+          {subtitle && <p className="mt-1 text-sm text-[var(--text-secondary)]">{subtitle}</p>}
+          <div className="mt-5">{children}</div>
+          {footer && <div className="mt-5 text-sm text-[var(--text-secondary)] text-center">{footer}</div>}
+        </div>
       </div>
       <p className="mt-6 text-xs text-[var(--text-tertiary)]">
         <Link href="/app/dashboard" className="hover:text-[var(--text-primary)]">{tx("Entrar a la demo sin cuenta →", "Enter the demo without an account →")}</Link>

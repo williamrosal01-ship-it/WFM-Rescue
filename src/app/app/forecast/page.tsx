@@ -23,6 +23,8 @@ import {
 import Link from "next/link";
 import { TrendingUp, TrendingDown, AlertTriangle, Upload, Target, ArrowRight } from "lucide-react";
 import { useMemo } from "react";
+import { ShareReportButton } from "@/components/share-report-button";
+import { buildForecastContent } from "@/lib/report-snapshot";
 
 export default function ForecastPage() {
   const tx = useTx();
@@ -87,7 +89,7 @@ export default function ForecastPage() {
       <SectionHeader
         title={tx("Pronóstico vs Real", "Forecast vs Actual")}
         description={tx("Precisión por WAPE (error porcentual absoluto ponderado) y sesgo direccional. Identifica si tu pronóstico sobreestima o subestima, y en qué intervalos.", "Accuracy by WAPE (Weighted Absolute Percentage Error) and directional bias. Shows whether your forecast over- or under-estimates, and where.")}
-        actions={<div className="flex flex-wrap items-center justify-end gap-2"><IntervalExport rows={rows} name="forecast" />{
+        actions={<div className="flex flex-wrap items-center justify-end gap-2"><ShareReportButton title={tx("Pronóstico vs Real", "Forecast vs Actual")} getContent={() => buildForecastContent(rows, tx("es", "en") as "es" | "en")} /><IntervalExport rows={rows} name="forecast" />{
           <Link href="/app/import">
             <Button variant="accent" size="sm"><Upload className="h-3.5 w-3.5" /> {tx("Importar pronóstico", "Import forecast")}</Button>
           </Link>

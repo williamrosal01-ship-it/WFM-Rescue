@@ -5,8 +5,7 @@ import { ChevronDown, Download } from "lucide-react";
 import { Button } from "@/components/ui";
 import { useTx } from "@/lib/tx";
 import { downloadCsv, downloadXlsx, type ExportRow, type ExportSection } from "@/lib/export";
-import { downloadReportPdf, type ChartSpec, type KpiCard } from "@/lib/pdf-report";
-import { useI18n } from "@/lib/i18n";
+import { printReport } from "@/lib/print-report";
 import { USER_UPLOADS_ENABLED } from "@/lib/config";
 
 /**
@@ -16,25 +15,19 @@ import { USER_UPLOADS_ENABLED } from "@/lib/config";
 export function ExportMenu({
   name,
   title,
-  subtitle,
   sections,
   disabled,
-  pdf,
 }: {
   name: string;
   title: string;
   subtitle?: string;
   sections: ExportSection[];
   disabled?: boolean;
-  /** Optional PDF content: KPI cards, charts and a summary table (see report-presets.ts). */
-  pdf?: { kpis: KpiCard[]; charts: ChartSpec[]; tableTitle?: string; table?: ExportRow[]; sections?: ExportSection[] };
 }) {
   const tx = useTx();
-  const { locale } = useI18n();
-  const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false);
   const wrap = useRef<HTMLDivElement>(null);
   const empty = disabled || sections.every((s) => s.rows.length === 0);
-  const footer = tx("WFM Rescue · datos del navegador, no se envían a ningún servidor", "WFM Rescue · browser data, nothing is sent to a server");
 
   useEffect(() => {
     if (!open) return;
@@ -55,21 +48,7 @@ export function ExportMenu({
   const items = [
     { id: "csv", label: "CSV", pro: true, run: () => downloadCsv(name, sections[0]?.rows ?? []) },
     { id: "xlsx", label: "XLSX", pro: true, run: () => downloadXlsx(name, sections) },
-    {
-      id: "pdf",
-      label: "PDF",
-      pro: false,
-      run: () =>
-        downloadReportPdf({
-          name,
-          title,
-          subtitle: subtitle ?? "",
-          locale,
-          kpis: pdf?.kpis ?? [],
-          charts: pdf?.charts ?? [],
-          sections: pdf ? (pdf.sections ?? [{ name: "summary", title: pdf.tableTitle ?? "", rows: pdf.table ?? [] }]) : sections,
-        }),
-    },
+    { id: "pdf", label: tx("PDF (guardar como PDF)", "PDF (save as PDF)"), pro: false, run: () => printReport(title) },
   ];
 
   return (

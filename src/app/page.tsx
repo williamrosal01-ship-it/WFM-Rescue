@@ -179,7 +179,7 @@ export default function LandingPage() {
                 {tx("Analítica WFM para decidir con números", "WFM analytics for number-driven decisions")}
               </div>
               <h1 className="text-[clamp(2.2rem,4.5vw,3.5rem)] font-bold leading-[1.05] tracking-tight text-[var(--text-primary)]">
-                {tx("Deja de adivinar la dotación.", "Stop guessing your staffing.")} <span className="text-[var(--accent)]">{tx("Ve cuánto te cuesta cada intervalo", "See what every understaffed interval costs")}</span> {tx("en minutos", "in minutes")}
+                                {tx("Deja de adivinar tu dotación.", "Stop guessing your staffing.")} <span className="text-[var(--accent)]">{tx("Mira cuánto te cuesta cada intervalo sin personal", "See what every understaffed interval costs you")}</span> {tx("— en minutos.", "— in minutes.")}
               </h1>
               <p className="mt-5 text-lg text-[var(--text-secondary)] leading-relaxed max-w-xl">
                 {tx("WFM Rescue unifica tus exportaciones de WFM, ACD, asistencia y adherencia; audita la calidad de los datos; y te dice qué está pasando, por qué, qué cuesta y qué hacer al respecto.", "WFM Rescue unifies your WFM, ACD, attendance and adherence exports, audits data quality, and tells you what is happening, why, what it costs and what to do about it.")}
@@ -189,7 +189,7 @@ export default function LandingPage() {
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/app/dashboard" className="btn btn-accent text-base !px-5 !py-2.5">
-                  {tx("Ver mi déficit de personal (demo)", "See my staffing gap (demo)")}
+                  {tx("Probar la demo", "Try the demo")}
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <a href="#features" className="btn btn-secondary text-base !px-5 !py-2.5">

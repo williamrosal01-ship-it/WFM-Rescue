@@ -24,7 +24,7 @@ export default function LoginPage() {
     const { error: err } = await supabase.auth.signInWithPassword({ email: email.trim(), password });
     setBusy(false);
     if (err) setError(translateAuthError(err.message, tx));
-    else router.push("/app/dashboard");
+    else router.push("/app/account");
   };
 
   const signOut = async () => { await supabase?.auth.signOut(); };

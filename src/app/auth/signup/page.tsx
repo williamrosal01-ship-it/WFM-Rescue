@@ -12,6 +12,8 @@ export default function SignupPage() {
   const { configured } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [workspace, setWorkspace] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [sent, setSent] = useState(false);
@@ -23,11 +25,14 @@ export default function SignupPage() {
     const { data, error: err } = await supabase.auth.signUp({
       email: email.trim(),
       password,
-      options: { emailRedirectTo: `${window.location.origin}/app/dashboard` },
+      options: {
+        emailRedirectTo: `${window.location.origin}/app/account`,
+        data: { full_name: fullName.trim(), workspace_name: workspace.trim() },
+      },
     });
     setBusy(false);
     if (err) setError(translateAuthError(err.message, tx));
-    else if (data.session) window.location.href = "/app/dashboard";
+    else if (data.session) window.location.href = "/app/account";
     else setSent(true);
   };
 
@@ -43,6 +48,14 @@ export default function SignupPage() {
       )}
       {configured && !sent && (
         <form onSubmit={submit} className="space-y-3">
+          <div>
+            <label className="label" htmlFor="signup-name">{tx("Tu nombre (opcional)", "Your name (optional)")}</label>
+            <input id="signup-name" className="input w-full" autoComplete="name" value={fullName} onChange={(e) => setFullName(e.target.value)} />
+          </div>
+          <div>
+            <label className="label" htmlFor="signup-workspace">{tx("Empresa o equipo (opcional)", "Company or team (optional)")}</label>
+            <input id="signup-workspace" className="input w-full" autoComplete="organization" value={workspace} onChange={(e) => setWorkspace(e.target.value)} />
+          </div>
           <div>
             <label className="label" htmlFor="signup-email">{tx("Correo", "Email")}</label>
             <input id="signup-email" className="input w-full" type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} />

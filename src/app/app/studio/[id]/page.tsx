@@ -2,8 +2,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { ExportMenu } from "@/components/export-menu";
 import type { ExportSection } from "@/lib/export";
-import type { ChartSpec, KpiCard } from "@/lib/pdf-report";
 import { CHART } from "@/lib/chart-palette";
+import { SuggestChart } from "@/components/suggest-chart";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useTx } from "@/lib/tx";
@@ -130,42 +130,11 @@ export default function StudioEditorPage() {
     return { name: resolveText(w.title, loc) || dimLabel, title: resolveText(w.title, loc) || dimLabel, rows: data };
   });
 
-  // PDF content: KPI cards for KPI widgets, one chart per chart widget, tables for detail.
-  const pdfKpis: KpiCard[] = [];
-  const pdfCharts: ChartSpec[] = [];
-  report.widgets.forEach((w) => {
-    const metrics = w.metrics.filter((m) => METRIC_BY_ID[m.metric]);
-    if (metrics.length === 0 || w.chart === "table") return;
-    const result = computeWidget(rows, w, loc);
-    const def = (i: number) => METRIC_BY_ID[metrics[i].metric];
-    const aggName = (i: number) => AGG_LABEL[metrics[i].agg][loc];
-    const fmt = (i: number): ValueFormat => def(i).format as ValueFormat;
-    const title = resolveText(w.title, loc) || DIMENSIONS.find((d) => d.id === w.dimension)?.label[loc] || "";
-    if (w.chart === "kpi") {
-      metrics.forEach((_, i) => pdfKpis.push({ label: `${def(i).label[loc]} · ${aggName(i)}`, value: formatStudioValue(result.totals[i], fmt(i), loc), tone: "neutral" }));
-      return;
-    }
-    const f = fmt(0);
-    pdfCharts.push({
-      title,
-      subtitle: `${DIMENSIONS.find((d) => d.id === w.dimension)?.label[loc] ?? ""} · ${result.groups.length} ${loc === "es" ? "grupos" : "groups"}`,
-      categories: result.groups.map((g) => g.label).slice(0, 24),
-      format: f === "pct" ? "pct" : f === "num" ? "dec1" : "int",
-      stacked: w.chart === "stacked",
-      series: metrics.map((m, i) => ({
-        name: `${def(i).label[loc]} (${aggName(i)})`,
-        color: CHART.series[i % CHART.series.length],
-        values: result.groups.map((g) => g.values[i]).slice(0, 24),
-        kind: w.chart === "line" ? "line" : "bar",
-      })),
-    });
-  });
-
   return (
     <div className={`space-y-5 ${mode === "view" ? "wr-view" : "wr-edit"}`}>
       <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
         <div className="min-w-0 flex-1">
-          <Link href="/app/studio" className="mb-2 inline-flex items-center gap-1 text-xs text-[var(--accent-strong)] hover:underline">
+          <Link href="/app/studio" className="wr-print-hide mb-2 inline-flex items-center gap-1 text-xs text-[var(--accent-strong)] hover:underline">
             <ArrowLeft className="h-3.5 w-3.5" /> {tx("Estudio de informes", "Report Studio")}
           </Link>
           <Input
@@ -186,7 +155,7 @@ export default function StudioEditorPage() {
           </p>
         </div>
         <div className="no-print flex flex-wrap gap-2">
-          <ExportMenu name={name} title={name} subtitle={tx(`${report.widgets.length} gráficos · ${rows.length} intervalos con filtros globales`, `${report.widgets.length} charts · ${rows.length} intervals with global filters`)} sections={exportSections} pdf={{ kpis: pdfKpis, charts: pdfCharts, sections: exportSections }} disabled={report.widgets.length === 0} />
+          <ExportMenu name={name} title={name} subtitle={tx(`${report.widgets.length} gráficos · ${rows.length} intervalos con filtros globales`, `${report.widgets.length} charts · ${rows.length} intervals with global filters`)} sections={exportSections} disabled={report.widgets.length === 0} />
           <Button size="sm" variant="secondary" className="edit-only" leadingIcon={<Copy className="h-3.5 w-3.5" />} onClick={() => { const nid = duplicate(report.id); if (nid) router.push(`/app/studio/${nid}`); }}>
             {tx("Duplicar", "Duplicate")}
           </Button>
@@ -243,6 +212,7 @@ export default function StudioEditorPage() {
               {k.label[loc]}
             </Button>
           ))}
+          <span className="ml-auto"><SuggestChart reportName={name} /></span>
         </div>
       </Card>
 

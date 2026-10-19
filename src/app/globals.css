@@ -35,6 +35,8 @@
     --accent-hover: #0c8a89;
     --accent-soft: #d6f5f4;
     --accent-strong: #0f766e;
+    /* Solid accent with white text (AA contrast). Used by selected/pressed controls. */
+    --accent-solid: #0f766e;
 
     --brand-primary: #102a43;
     --brand-secondary: #243b53;
@@ -113,6 +115,7 @@
     --accent-hover: #14b8a6;
     --accent-soft: #0f3a38;
     --accent-strong: #5eead4;
+    --accent-solid: #0f766e;
 
     --brand-primary: #e2e8f0;
     --brand-secondary: #94a3b8;
@@ -492,23 +495,81 @@ main,
 .wr-view .edit-only {
   display: none !important;
 }
+/* ---- Print = PDF (Download > PDF). The page prints as on screen, in light colors, without controls. ---- */
+.print-only {
+  display: none;
+}
 @media print {
-  .edit-only,
-  .no-print,
-  .wr-print-hide,
+  @page {
+    size: A4;
+    margin: 12mm 10mm;
+  }
+  :root,
+  :root[data-theme="dark"],
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg-canvas: #ffffff;
+    --bg-surface: #ffffff;
+    --bg-hover: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-tertiary: #475569;
+    --text-quaternary: #64748b;
+    --border-default: #cbd5e1;
+    --border-subtle: #e2e8f0;
+    --accent: #0f766e;
+    --accent-strong: #0f766e;
+    --accent-soft: #ccfbf1;
+  }
+  html,
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
   aside,
   header,
-  nav {
+  nav,
+  footer,
+  button,
+  [role="menu"],
+  [role="dialog"],
+  .edit-only,
+  .no-print,
+  .wr-print-hide {
     display: none !important;
   }
-  body,
+  .print-only {
+    display: block !important;
+  }
   main {
-    background: #fff !important;
-    color: #111 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+  }
+  .animate-fade-in {
+    animation: none !important;
   }
   .card {
-    break-inside: avoid;
     box-shadow: none !important;
+    border-color: #e2e8f0 !important;
+    break-inside: avoid;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  .recharts-wrapper,
+  svg {
+    break-inside: avoid;
+  }
+  .recharts-tooltip-wrapper {
+    display: none !important;
   }
 }
 

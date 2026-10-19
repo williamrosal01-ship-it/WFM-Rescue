@@ -22,6 +22,8 @@ import {
   Users,
 } from "lucide-react";
 import { useMemo } from "react";
+import { ShareReportButton } from "@/components/share-report-button";
+import { buildDashboardContent } from "@/lib/report-snapshot";
 
 export default function DashboardPage() {
   const tx = useTx();
@@ -96,7 +98,7 @@ export default function DashboardPage() {
       <SectionHeader
         title={tx("Dashboard operativo", "Operations dashboard")}
         description={tx("Vista consolidada del día. Todos los KPIs se calculan con las fórmulas documentadas y responden a los filtros.", "Consolidated daily view. All KPIs are calculated with the documented formulas and respond to the filters.")}
-        actions={<div className="flex flex-wrap items-center justify-end gap-2"><IntervalExport rows={rows} name="dashboard" />{
+        actions={<div className="flex flex-wrap items-center justify-end gap-2"><ShareReportButton title={tx("Dashboard operativo", "Operations dashboard")} getContent={() => buildDashboardContent(rows, tx("es", "en") as "es" | "en")} /><IntervalExport rows={rows} name="dashboard" />{
           <>
             <Link href="/app/intraday">
               <Button variant="accent" size="sm">

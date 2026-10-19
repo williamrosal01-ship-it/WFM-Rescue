@@ -36,7 +36,7 @@ type ProfileRow = {
  */
 async function syncAccount(session: Session | null) {
   if (!session || !supabase) {
-    useWfmStore.setState(DEMO_IDENTITY);
+    useWfmStore.setState({ ...DEMO_IDENTITY, orgPlan: "demo" });
     return;
   }
   const email = session.user.email ?? "";
@@ -53,7 +53,17 @@ async function syncAccount(session: Session | null) {
     profile = null;
   }
   const org = Array.isArray(profile?.organizations) ? profile?.organizations[0] : profile?.organizations;
+  // Plan real de la organización. Si la función falla o no hay fila, queda en demo.
+  let orgPlan: "demo" | "pro" = "demo";
+  try {
+    const { data } = await supabase.rpc("get_org_seats");
+    const row = (Array.isArray(data) ? data[0] : data) as { plan_name?: string } | null;
+    if (row?.plan_name === "pro") orgPlan = "pro";
+  } catch {
+    orgPlan = "demo";
+  }
   useWfmStore.setState({
+    orgPlan,
     userEmail: email,
     userName: profile?.full_name || meta.full_name || email.split("@")[0],
     orgName: org?.name || meta.workspace_name || email.split("@")[0],

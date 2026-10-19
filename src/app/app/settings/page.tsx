@@ -6,12 +6,13 @@ import Link from "next/link";
 import { loadProfiles, deleteProfile, duplicateProfile, makeSourceLabels, type ImportProfile } from "@/lib/import-profiles";
 import { useState, useEffect } from "react";
 import { useI18n, type Locale } from "@/lib/i18n";
-import { CURRENT_PLAN } from "@/lib/config";
+import { useEffectivePlan } from "@/lib/plan-access";
 import { BackupCard } from "@/components/backup-card";
 import { BillingModelSection } from "@/components/billing-model-section";
 import { loadLoadedCost, saveLoadedCost } from "@/lib/cost-settings";
 
 export default function SettingsPage() {
+  const CURRENT_PLAN = useEffectivePlan();
   const tx = useTx();
   const { t, locale, setLocale } = useI18n();
   const [orgName, setOrgName] = useState("WFM Rescue Demo");

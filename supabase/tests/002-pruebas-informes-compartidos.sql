@@ -117,6 +117,11 @@ begin
   perform public.t_fails('select count(*) from public.shared_reports', 'permission denied', 'T21 anon no lee la tabla directamente');
 
   -- 9) Cuentas y límite de editores
+  -- Sin fila en organization_plans la función devuelve 'demo'. Esta org de prueba es Pro explícitamente.
+  perform public.t_as(null, 'root');
+  insert into public.organization_plans (organization_id, plan)
+  select organization_id, 'pro' from public.profiles where id = A2::uuid
+  on conflict (organization_id) do update set plan = 'pro';
   perform public.t_as(A2, 'authenticated');
   select * into seats from public.get_org_seats();
   perform public.t_ok(seats.seats_used = 4 and seats.seats_limit = 5 and seats.plan_name = 'pro', 'T22 uso 4 de 5 editores (Pro)');

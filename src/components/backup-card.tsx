@@ -3,13 +3,14 @@ import { useRef, useState } from "react";
 import { Download, Upload } from "lucide-react";
 import { Card, Button, Callout } from "@/components/ui";
 import { useTx } from "@/lib/tx";
-import { USER_UPLOADS_ENABLED } from "@/lib/config";
+import { useUploadsEnabled } from "@/lib/plan-access";
 import { BackupError, readBackupZip, type BackupErrorCode } from "@/lib/backup-zip";
 import { exportWorkspaceZip, restoreWorkspace } from "@/lib/workspace-backup";
 
 // Pro only: the demo has no user data to back up.
 export function BackupCard() {
   const tx = useTx();
+  const USER_UPLOADS_ENABLED = useUploadsEnabled();
   const fileRef = useRef<HTMLInputElement>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);

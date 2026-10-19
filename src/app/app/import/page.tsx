@@ -12,13 +12,15 @@ import type { ColumnMapping, DataSourceType } from "@/lib/types";
 import { consolidateRows, analyzeDataHealth } from "@/lib/data-health";
 import { runDiagnostics } from "@/lib/diagnostics";
 import clsx from "clsx";
-import { USER_UPLOADS_ENABLED, SOURCE_TEMPLATES_ENABLED } from "@/lib/config";
+import { useUploadsEnabled, useTemplatesEnabled } from "@/lib/plan-access";
 import { useI18n } from "@/lib/i18n";
 import { tl } from "@/lib/texts-en";
 import Link from "next/link";
 
 
 export default function ImportPage() {
+  const USER_UPLOADS_ENABLED = useUploadsEnabled();
+  const SOURCE_TEMPLATES_ENABLED = useTemplatesEnabled();
   const tx = useTx();
   const { showToast } = useToast();
   const SOURCE_LABELS = makeSourceLabels(tx);

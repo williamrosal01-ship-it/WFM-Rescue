@@ -104,7 +104,7 @@ begin
     select
       (select count(*)::int from public.profiles p where p.organization_id = v_org and p.access_status = 'active'),
       coalesce((select op.editor_seats from public.organization_plans op where op.organization_id = v_org), 5),
-      coalesce((select op.plan from public.organization_plans op where op.organization_id = v_org), 'pro');
+      coalesce((select op.plan from public.organization_plans op where op.organization_id = v_org), 'demo');
 end;
 $$;
 

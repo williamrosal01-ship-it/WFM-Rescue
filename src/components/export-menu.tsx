@@ -6,7 +6,7 @@ import { Button } from "@/components/ui";
 import { useTx } from "@/lib/tx";
 import { downloadCsv, downloadXlsx, type ExportRow, type ExportSection } from "@/lib/export";
 import { printReport } from "@/lib/print-report";
-import { USER_UPLOADS_ENABLED } from "@/lib/config";
+import { useUploadsEnabled } from "@/lib/plan-access";
 
 /**
  * One "Download" button with a menu: CSV, XLSX, PDF.
@@ -25,6 +25,7 @@ export function ExportMenu({
   disabled?: boolean;
 }) {
   const tx = useTx();
+  const USER_UPLOADS_ENABLED = useUploadsEnabled();
     const [open, setOpen] = useState(false);
   const wrap = useRef<HTMLDivElement>(null);
   const empty = disabled || sections.every((s) => s.rows.length === 0);

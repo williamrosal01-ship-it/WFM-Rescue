@@ -33,6 +33,8 @@ interface WfmState {
   userEmail: string;
   userName: string;
   userRole: "viewer" | "analyst" | "manager" | "admin";
+  /** Plan de la organización según la base (organization_plans). Sin fila o sin sesión = demo. */
+  orgPlan: "demo" | "pro";
   theme: Theme;
   sidebarOpen: boolean;
   // Data
@@ -75,6 +77,7 @@ export const useWfmStore = create<WfmState>((set, get) => ({
   userEmail: "demo@wfmrescue.app",
   userName: "Alex Manager",
   userRole: "manager",
+  orgPlan: "demo",
   theme: "light",
   sidebarOpen: true,
   intervals: [],

@@ -60,7 +60,7 @@ export default function DiagnosticsPage() {
         actions={<div className="flex flex-wrap items-center justify-end gap-2"><IntervalExport rows={rows} name="diagnostics" />{
           <>
             <Button variant="secondary" size="sm" onClick={rerun}>
-              <RefreshCw className="h-3.5 w-3.5" /> Re-ejecutar
+              <RefreshCw className="h-3.5 w-3.5" /> {tx("Re-ejecutar", "Re-run")}
             </Button>
             <Button variant="accent" size="sm" onClick={()=>{ const blob=new Blob([`# WFM Rescue - Diagnostic Report\nGenerated: ${new Date().toLocaleString()}\n\n` + findings.map(f=>`## ${f.title} [${f.severity}]\n${f.description}\nImpact: ${f.impact}\n`).join("\n\n")],{type:"text/markdown"}); const url=URL.createObjectURL(blob); const a=document.createElement("a"); a.href=url; a.download=`wfm-diagnostics-${new Date().toISOString().slice(0,10)}.md`; a.click(); URL.revokeObjectURL(url); }}>
               <Download className="h-3.5 w-3.5" /> {tx("Exportar informe", "Export report")}

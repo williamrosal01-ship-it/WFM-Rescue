@@ -1,0 +1,277 @@
+{
+  "lang": "es",
+  "routes": {
+    "/": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 16,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/pricing": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 16,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/docs": {
+      "errors": [],
+      "wrongLang": [
+        "Total de tiempo trabajado versus programado; no penaliza desviaciones temporales si se recupera el tiempo."
+      ],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 7,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/dashboard": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 32,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/intraday": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 29,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/service-level": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/staffing": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 28,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/adherence": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/attendance": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/aux-report": {
+      "errors": [],
+      "wrongLang": [
+        "Total"
+      ],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/capacity": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/occupancy": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/nlh": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/forecast": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/diagnostics": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 28,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/data-health": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 28,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/import": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 24,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/reports": {
+      "errors": [],
+      "wrongLang": [],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 27,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    },
+    "/app/settings": {
+      "errors": [],
+      "wrongLang": [
+        "Avaya CMS Interval Export"
+      ],
+      "lowContrast": {
+        "light": [],
+        "dark": []
+      },
+      "mobileOverflow": {
+        "scrollW": 390,
+        "clientW": 390
+      },
+      "buttons": 29,
+      "themeHint": "inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_dd0be"
+    }
+  }
+}

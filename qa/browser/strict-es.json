@@ -1,0 +1,226 @@
+{
+  "/": [
+    "De  a",
+    "decisiones intradía",
+    "No es otro dashboard bonito. Es una herramienta que te dice qué hacer.",
+    "No más 'te falta personal'. Recibes las colas, los intervalos, el déficit en horas-agente, el impacto económico y acciones priorizadas.",
+    "Soporte de decisiones intradía",
+    "Monitorea intervalo a intervalo: , , ocupación, adherencia, . Detecta desviaciones antes de que se conviertan en crisis.",
+    "Precisión por  (no MAPE), sesgo direccional, errores por intervalo y por cola. Identifica si el plan está sobreestimando o subestimando.",
+    "Distinguimos planificado vs no-planificado, adherencia vs conformidad, y los códigos  que más afectan la operación.",
+    "Trazabilidad total",
+    "Los ejecutivos no necesitan 40 gráficos: necesitan 5 KPIs, 3 riesgos y la acción del día. Eso es lo que entregamos.",
+    "Cómo es un día con  Rescue versus cómo es hoy",
+    "Si tu operación aún depende de hojas de cálculo, reconoces esto.",
+    "KPI que nadie puede explicar de dónde salió ni si incluye abandonos cortos o no.",
+    "Cada semana vuelves a mapear las mismas columnas del mismo proveedor.",
+    "Si tu  actual no da abasto",
+    "Complementa tu plataforma  existente con análisis flexible. Importas los reportes que ya generas, sin integraciones complejas ni consultoría.",
+    "Si estás armando el reporte diario a partir de 5 CSVs distintos y tres pestañas,  Rescue te quita ese trabajo del día en menos de una semana.",
+    "Paga por la decisión, no por la implementación",
+    "Datos demo ilustrativos (no es un feed en vivo)",
+    ": 9 plantillas, 6 tipos de gráfico,  e impresión a ",
+    "Tu próximo comité de operaciones no tiene por qué empezar con \"armé el reporte anoche a las 11\"",
+    "Entrar a la demo"
+  ],
+  "/pricing": [
+    "De  a",
+    "decisiones intradía",
+    "No es otro dashboard bonito. Es una herramienta que te dice qué hacer.",
+    "No más 'te falta personal'. Recibes las colas, los intervalos, el déficit en horas-agente, el impacto económico y acciones priorizadas.",
+    "Soporte de decisiones intradía",
+    "Monitorea intervalo a intervalo: , , ocupación, adherencia, . Detecta desviaciones antes de que se conviertan en crisis.",
+    "Precisión por  (no MAPE), sesgo direccional, errores por intervalo y por cola. Identifica si el plan está sobreestimando o subestimando.",
+    "Distinguimos planificado vs no-planificado, adherencia vs conformidad, y los códigos  que más afectan la operación.",
+    "Trazabilidad total",
+    "Los ejecutivos no necesitan 40 gráficos: necesitan 5 KPIs, 3 riesgos y la acción del día. Eso es lo que entregamos.",
+    "Cómo es un día con  Rescue versus cómo es hoy",
+    "Si tu operación aún depende de hojas de cálculo, reconoces esto.",
+    "KPI que nadie puede explicar de dónde salió ni si incluye abandonos cortos o no.",
+    "Cada semana vuelves a mapear las mismas columnas del mismo proveedor.",
+    "Si tu  actual no da abasto",
+    "Complementa tu plataforma  existente con análisis flexible. Importas los reportes que ya generas, sin integraciones complejas ni consultoría.",
+    "Si estás armando el reporte diario a partir de 5 CSVs distintos y tres pestañas,  Rescue te quita ese trabajo del día en menos de una semana.",
+    "Paga por la decisión, no por la implementación",
+    "Datos demo ilustrativos (no es un feed en vivo)",
+    ": 9 plantillas, 6 tipos de gráfico,  e impresión a ",
+    "Tu próximo comité de operaciones no tiene por qué empezar con \"armé el reporte anoche a las 11\"",
+    "Entrar a la demo"
+  ],
+  "/docs": [
+    "Las fórmulas documentadas aquí son las que usa el motor de cálculo real del producto. Si detectas una desviación respecto a la convención de tu ACD o proveedor, puedes ajustar los parámetros en Configuración.  Rescue sigue la convención más extendida en la industria pero siempre te muestra los supuestos.",
+    "La agregación diaria no es un promedio simple; se recalcula con totales cuando están disponibles.",
+    "Tiempo promedio total por contacto: conversación + espera + trabajo posterior (). Se usa para calcular carga (workload) y requerimiento.",
+    "Precisión del pronóstico por volumen usando  (error porcentual absoluto ponderado). Mejor que MAPE porque no infla errores de intervalos pequeños.",
+    "Ocupación = (Tiempo de manejo total) / Tiempo logueado productivo",
+    "No incluye tiempo en  no productivo si tu ACD lo reporta separado.",
+    "Se añade shrinkage para convertir 'personas en sus puestos' en agentes requeridos en el horario.",
+    "Bajo-dimensiona cuando hay abandono significativo o arribos no-Poisson (chat con backlog).",
+    "Porcentaje del tiempo que el agente está en la actividad correcta según su horario. Distinguir de 'conformidad' (total trabajado vs total programado).",
+    "Adherencia mide 'en la actividad correcta en el momento correcto'; Conformidad mide el total al final del día.",
+    "Total de tiempo trabajado versus programado; no penaliza desviaciones temporales si se recupera el tiempo.",
+    "Porcentaje del tiempo pagado que los agentes NO están atendiendo contactos (pausas, capacitación, reuniones, coaching, ausencias,  no productivos, etc.).",
+    "Se separa en shrinkage planificado (vacaciones, capacitación, reuniones) vs no-planificado (ausencias,  excesivo).",
+    "Proporción de  no productivo",
+    "Proporción del tiempo logueado en códigos  no productivos.",
+    "¿No encuentras una métrica?",
+    "Las métricas se añaden según la demanda de los clientes. Si necesitas una métrica específica de tu operación (p. ej. SLA por skill con umbrales específicos, Net Promoter Score integrado, FCR por intervalo), abre un issue o contáctanos."
+  ],
+  "/app/studio": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Crea informes con gráficos a partir de tus datos: cada gráfico usa la representación que mejor muestra su dato. Los informes se guardan en este navegador.",
+    "Requeridos, programados y presentes a lo largo del día. Línea: es una tendencia.",
+    "Comparación de nivel de servicio entre colas. Barras: categorías.",
+    "Pronóstico vs real por día",
+    "Volumen pronosticado contra real por día, con la diferencia.",
+    "Personal faltante frente a lo requerido en cada intervalo.",
+    "Ocupación y nivel de servicio a lo largo del día.",
+    "Aún no tienes informes",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/dashboard": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Vista consolidada del día. Todos los KPIs se calculan con las fórmulas documentadas y responden a los filtros.",
+    "Vista intradía",
+    "Resumen del día",
+    "Faltan 5,205 agentes en total (suma de intervalos)",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/intraday": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Monitoreo intervalo a intervalo. Se priorizan los intervalos con mayor impacto operativo, no solo los que tienen peor .",
+    "Promedio del día",
+    "Tabla intradía (intervalo a intervalo)",
+    "OK",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/service-level": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Nivel de servicio — análisis detallado",
+    "Análisis profundo de nivel de servicio por intervalo, cola y umbral. Identifica patrones de degradación.",
+    "OK",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/staffing": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Análisis de dotación: requerido vs programado vs presente. Identifica brechas por intervalo y cola con impacto económico.",
+    "Requeridos (total intervalos)",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/adherence": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Análisis de adherencia al horario (momento correcto, actividad correcta), conformidad (total de horas), y códigos  con mayor impacto.",
+    "Tiempo en  (no productivo)",
+    " no-productivo",
+    "Tiempo  total",
+    "OK",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/attendance": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "No adherentes en prod. al inicio",
+    "OK",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/aux-report": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    " — Análisis Detallado",
+    "Desglose de tiempo no-productivo por código . Detecta excesos, compara planificado vs no-planificado.",
+    "Tiempo total ",
+    "Tamaño = tiempo total",
+    "Intervalos con >15 min no-productivo",
+    "No hay intervalos sobre el umbral. ¡Buen control de !",
+    "Total",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/capacity": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    " total requerido",
+    "Volumen total",
+    "Planificado + no planificado",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/occupancy": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Ponderada del día",
+    "Promedio ponderado del día",
+    "OK",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/nlh": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Horas pagadas (total)",
+    "Eficiencia excelente. Verifica que no haya agotamiento por sobre-utilización.",
+    "Barras apiladas: productivo vs no-productivo",
+    "No-productivas",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor.",
+    "@aria-label: No-productivas legend icon"
+  ],
+  "/app/forecast": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Precisión por  (error porcentual absoluto ponderado) y sesgo direccional. Identifica si tu pronóstico sobreestima o subestima, y en qué intervalos.",
+    "El plan se quedó corto. Considera un repronóstico intradía para los picos.",
+    "Error % por intervalo",
+    "Análisis por cola",
+    " mide error absoluto ponderado; es más robusto que MAPE porque no infla errores en intervalos de bajo volumen.",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/diagnostics": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "No mostramos solo métricas. Identificamos problemas concretos, cuantificamos el impacto y recomendamos acciones priorizadas.",
+    "Se detectaron 239 intervalos con personal insuficiente (menos del 95% del requerido). Déficit total: 1,384.5 horas-agente. 104 de esos intervalos incumplieron el objetivo de .",
+    "El déficit se asocia a 104 incumplimientos de . Costo aproximado de sobrecarga (horas-agente perdidas): $38766. La cola más afectada es Support (644.8 horas-agente de déficit).",
+    "Gerente intradía",
+    "Revisar shrinkage no-planificado en esos turnos",
+    "Asunción: $28/hora cargada por agente. Es un costo de servicio al cliente perdido, no nómina.",
+    "Verificar si las desviaciones se deben a absentismo o volumen inesperado",
+    "Posible causa: pausas y almuerzos no escalonados o pronósticos pesimistas en horas valle.",
+    "El exceso se concentra al inicio del día (8:00-9:00).",
+    "El exceso se concentra al final del día (16:00+).",
+    "Asignar trabajo de backoffice (email, chat asincrónico) a los agentes ociosos",
+    "No se pueden eliminar agentes sin afectar  si los picos son posteriores; pero se pueden reescalar pausas, ofrecer tiempo libre voluntario o mover a backoffice.",
+    "El pronóstico agregado tiene un error absoluto ponderado del 10.3%. El pronóstico subestima el volumen real en un 9.5% (riesgo de déficit).",
+    "Volumen total pronosticado: 69,279.",
+    "Volumen total real: 76,579.",
+    "Reentrenar modelo con datos de las últimas 6 semanas incluyendo el día de hoy",
+    "Revisar si hubo eventos no previstos (campañas, incidencias)",
+    "Introducir repronóstico intradía para las colas con mayor error",
+    "Asigna las acciones inmediatas a los supervisores de cola",
+    "Compara con el día de la semana anterior para detectar patrones",
+    "Ir a la vista intradía",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/data-health": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Auditoría automática de los datos cargados: nulos, duplicados, unidades, intervalos faltantes y más. Solo puedes confiar en los KPIs si los datos pasan este control.",
+    "Puntaje total",
+    "No se detectaron problemas de calidad. Los datos están listos para análisis.",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/import": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Importar otro archivo añadirá sus datos al conjunto actual. Si prefieres empezar de nuevo, limpia los datos desde la barra superior.",
+    "La carga de archivos propios y las plantillas por origen están disponibles en el plan . Mientras tanto, explora el análisis con los datos demo.",
+    "Corrige lo que no coincida; puedes guardar el perfil para la próxima semana.",
+    "Campos canónicos soportados",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/reports": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Construye informes ad-hoc: agrupa por dimensión, selecciona columnas, ordena, filtra y exporta a . Sin construir consultas ni hojas.",
+    "Error %",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/settings": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Este espacio es de un solo usuario. Los datos que cargues se guardan solo en este navegador (IndexedDB) y no se envían a un servidor; limpiar los datos del sitio en el navegador los borra. Las cuentas con varios usuarios y permisos por rol no están incluidas en este plan.",
+    "Plan",
+    "No hay perfiles guardados. Importa un archivo y guarda el mapeo.",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ],
+  "/app/explorer": [
+    " Contact Center — 4 colas, 15 min, 2 sitios",
+    "Filas tal como quedaron después del mapeo, con búsqueda y exportación. Úsalo para verificar valores antes de leer los análisis.",
+    "Datos procesados y guardados en tu navegador; no se envían a un servidor."
+  ]
+}

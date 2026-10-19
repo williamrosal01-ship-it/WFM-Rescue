@@ -1,0 +1,69 @@
+{
+  "/": [
+    "No card required",
+    "Every visualization answers a real operational question. Every alert comes with evidence, impact and a recommendation.",
+    "No more 'you are short-staffed'. You get the queues, the intervals, the agent-hour deficit, the financial impact and prioritized actions.",
+    "Every metric has a documented formula, assumptions, source fields and limitations. No more 'magic' KPI nobody can explain.",
+    "Complement your existing  platform with flexible analysis. Import the reports you already generate, with no complex integrations or consulting.",
+    "No 6-month implementations. No hidden add-ons. No surprises at renewal.",
+    "No uploads of your own files",
+    "Open the demo and see the diagnostics run in under a minute. No sign-up or file upload needed."
+  ],
+  "/pricing": [
+    "No card required",
+    "Every visualization answers a real operational question. Every alert comes with evidence, impact and a recommendation.",
+    "No more 'you are short-staffed'. You get the queues, the intervals, the agent-hour deficit, the financial impact and prioritized actions.",
+    "Every metric has a documented formula, assumptions, source fields and limitations. No more 'magic' KPI nobody can explain.",
+    "Complement your existing  platform with flexible analysis. Import the reports you already generate, with no complex integrations or consulting.",
+    "No 6-month implementations. No hidden add-ons. No surprises at renewal.",
+    "No uploads of your own files",
+    "Open the demo and see the diagnostics run in under a minute. No sign-up or file upload needed."
+  ],
+  "/docs": [
+    "Every metric  Rescue calculates is documented here: definition, formula, unit, source fields, assumptions and limitations. No black boxes.",
+    "The formulas documented here are the ones the product's real calculation engine uses. If you detect a deviation from your ACD or vendor convention, you can adjust the parameters in Settings.  Rescue follows the most widespread industry convention but always shows you the assumptions."
+  ],
+  "/app/studio": [
+    "You have no reports yet"
+  ],
+  "/app/dashboard": [],
+  "/app/intraday": [],
+  "/app/service-level": [],
+  "/app/staffing": [],
+  "/app/adherence": [
+    "Bogotá"
+  ],
+  "/app/attendance": [
+    "Bogotá"
+  ],
+  "/app/aux-report": [
+    "No intervals over the threshold. Good  control!",
+    "Bogotá"
+  ],
+  "/app/capacity": [],
+  "/app/occupancy": [],
+  "/app/nlh": [
+    "Net productive hours vs paid. Measures the real efficiency of your operation by interval, queue and site.",
+    "Excellent efficiency. Check there is no burnout from over-utilization."
+  ],
+  "/app/forecast": [],
+  "/app/diagnostics": [
+    "/hora"
+  ],
+  "/app/data-health": [
+    "No quality issues were detected. The data is ready for analysis."
+  ],
+  "/app/import": [
+    "3 steps, no integrations"
+  ],
+  "/app/reports": [
+    "Build ad-hoc reports: group by dimension, select columns, sort, filter and export to . No queries or sheets to build."
+  ],
+  "/app/settings": [
+    "America/Bogotá (-5)",
+    "es-CO —  ()",
+    "en-US —  (US)",
+    "No saved profiles. Import a file and save the mapping."
+  ],
+  "/app/explorer": []
+}

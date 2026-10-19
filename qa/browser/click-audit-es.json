@@ -1,0 +1,5942 @@
+[
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 1,
+    "label": "Producto",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 2,
+    "label": "WFM vs Excel",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 3,
+    "label": "Precios",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 4,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 5,
+    "label": "Iniciar sesión",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 6,
+    "label": "Probar demo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 7,
+    "label": "Abrir la aplicación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 8,
+    "label": "Ver funcionalidades",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 9,
+    "label": "Mensual",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 10,
+    "label": "Anual",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 11,
+    "label": "Probar la demo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 12,
+    "label": "Solicitar acceso",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 13,
+    "label": "Entrar a la demo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 14,
+    "label": "Ver documentación de métricas",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 15,
+    "label": "Docs de métricas",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "lang": "es",
+    "idx": 16,
+    "label": "Precios",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 1,
+    "label": "Producto",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 2,
+    "label": "WFM vs Excel",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 3,
+    "label": "Precios",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 4,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 5,
+    "label": "Iniciar sesión",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 6,
+    "label": "Probar demo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 7,
+    "label": "Abrir la aplicación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 8,
+    "label": "Ver funcionalidades",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 9,
+    "label": "Mensual",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 10,
+    "label": "Anual",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 11,
+    "label": "Probar la demo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 12,
+    "label": "Solicitar acceso",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 13,
+    "label": "Entrar a la demo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 14,
+    "label": "Ver documentación de métricas",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 15,
+    "label": "Docs de métricas",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/pricing",
+    "lang": "es",
+    "idx": 16,
+    "label": "Precios",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 1,
+    "label": "Inicio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 2,
+    "label": "Precios",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 3,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 4,
+    "label": "App",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 5,
+    "label": "Abrir la app",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "lang": "es",
+    "idx": 6,
+    "label": "Volver al inicio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 25,
+    "label": "Vista intradía",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 26,
+    "label": "Vista intradía",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 27,
+    "label": "Ver diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 28,
+    "label": "Ver diagnósticos",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 29,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 30,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 31,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 32,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 33,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 34,
+    "label": "Informe completo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 35,
+    "label": "Informe completo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 36,
+    "label": "Ver diagnóstico completo",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/dashboard",
+    "lang": "es",
+    "idx": 37,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 25,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 26,
+    "label": "Diagnósticos",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 27,
+    "label": "Repronóstico",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 28,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 29,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 30,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 32,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 33,
+    "label": "Ver todo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/intraday",
+    "lang": "es",
+    "idx": 34,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 25,
+    "label": "Ver diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver diagnósticos",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 25,
+    "label": "Exportar CSV",
+    "tag": "BUTTON",
+    "status": "skipped",
+    "effect": null,
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver Capacidad →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 27,
+    "label": "Ver Capacidad →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 28,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 29,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 30,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 32,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "es",
+    "idx": 33,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 25,
+    "label": "Importar adherencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 26,
+    "label": "Importar adherencia",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 25,
+    "label": "Ver NLH →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver NLH →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 25,
+    "label": "Ver Adherencia →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver Adherencia →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 25,
+    "label": "Ver NLH →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver NLH →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 25,
+    "label": "Ver Capacidad →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver Capacidad →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 25,
+    "label": "Ver Staffing →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver Staffing →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 25,
+    "label": "Importar pronóstico",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 26,
+    "label": "Importar pronóstico",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "es",
+    "idx": 32,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 25,
+    "label": "Re-ejecutar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 26,
+    "label": "Exportar informe",
+    "tag": "BUTTON",
+    "status": "skipped",
+    "effect": null,
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 27,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 28,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 29,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 31,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 32,
+    "label": "Re-ejecutar diagnósticos",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 33,
+    "label": "Ir a la vista intradía",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "es",
+    "idx": 34,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 25,
+    "label": "Re-escanear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 26,
+    "label": "Importar otro",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 27,
+    "label": "Importar otro",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 28,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 29,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 30,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 32,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "es",
+    "idx": 33,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 25,
+    "label": "Cargar datos demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "es",
+    "idx": 26,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 25,
+    "label": "Estudio con gráficos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 26,
+    "label": "Exportar CSV",
+    "tag": "BUTTON",
+    "status": "skipped",
+    "effect": null,
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 27,
+    "label": "Guardar vista",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 28,
+    "label": "Cola Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 29,
+    "label": "Canal Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 30,
+    "label": "Sitio Todos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 32,
+    "label": "Limpiar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 33,
+    "label": "Cola + Canal Solo Cola Solo Canal Intervalo",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 34,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 35,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 36,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 37,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 38,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 39,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 40,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 41,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 42,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 43,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 44,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 45,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 46,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 47,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 48,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "es",
+    "idx": 49,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 0,
+    "label": "WFM Rescue Analítica de operaciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 1,
+    "label": "Mostrar u ocultar menú",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 4,
+    "label": "Diagnósticos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 6,
+    "label": "Capacidad",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 7,
+    "label": "Pronóstico vs Real",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 9,
+    "label": "Ocupación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 11,
+    "label": "AUX Detalle",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 12,
+    "label": "Asistencia",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 13,
+    "label": "Adherencia & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 14,
+    "label": "Tabla de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 15,
+    "label": "Estudio de informes",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 16,
+    "label": "Importar datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 17,
+    "label": "Explorador de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 18,
+    "label": "Calidad de datos",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 19,
+    "label": "Configuración",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 20,
+    "label": "Buscar… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 21,
+    "label": "Documentación",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 22,
+    "label": "Notificaciones",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 23,
+    "label": "Cambiar tema",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 25,
+    "label": "Guardar cambios",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 26,
+    "label": "🇪🇸 Español Español",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 27,
+    "label": "🇺🇸 English English",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 28,
+    "label": "Claro",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 29,
+    "label": "Oscuro",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 30,
+    "label": "America/Bogotá (UTC-5) America/Lima (UTC-5) America/México (",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 31,
+    "label": "es-CO — Español (Colombia) en-US — English (US)",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 32,
+    "label": "5 minutos 15 minutos 30 minutos 60 minutos",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 33,
+    "label": "Nuevo perfil",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 34,
+    "label": "Nuevo perfil",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "es",
+    "idx": 35,
+    "label": "Ver definiciones",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  }
+]

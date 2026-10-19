@@ -1,0 +1,4802 @@
+[
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 25,
+    "label": "View diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 26,
+    "label": "View diagnostics",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/service-level",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 25,
+    "label": "Export CSV",
+    "tag": "BUTTON",
+    "status": "skipped",
+    "effect": null,
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 26,
+    "label": "View Capacity →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 27,
+    "label": "View Capacity →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 28,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 29,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 30,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 32,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/staffing",
+    "lang": "en",
+    "idx": 33,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 25,
+    "label": "Import adherence",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 26,
+    "label": "Import adherence",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/adherence",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 25,
+    "label": "View NLH →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 26,
+    "label": "View NLH →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/attendance",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 25,
+    "label": "View Adherence →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 26,
+    "label": "View Adherence →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/aux-report",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 25,
+    "label": "View NLH →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 26,
+    "label": "View NLH →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/capacity",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 25,
+    "label": "View Capacity →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 26,
+    "label": "View Capacity →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/occupancy",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 25,
+    "label": "View Staffing →",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 26,
+    "label": "View Staffing →",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/nlh",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 25,
+    "label": "Import forecast",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 26,
+    "label": "Import forecast",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/forecast",
+    "lang": "en",
+    "idx": 32,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 25,
+    "label": "Re-ejecutar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 26,
+    "label": "Export report",
+    "tag": "BUTTON",
+    "status": "skipped",
+    "effect": null,
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 27,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 28,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 29,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 30,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 31,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 32,
+    "label": "Re-run diagnostics",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 33,
+    "label": "Go to the intraday view",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/diagnostics",
+    "lang": "en",
+    "idx": 34,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 25,
+    "label": "Rescan",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 26,
+    "label": "Import another",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 27,
+    "label": "Import another",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 28,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 29,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 30,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 32,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/data-health",
+    "lang": "en",
+    "idx": 33,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 25,
+    "label": "Load demo data",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/import",
+    "lang": "en",
+    "idx": 26,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 25,
+    "label": "Report Studio with charts",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 26,
+    "label": "Export CSV",
+    "tag": "BUTTON",
+    "status": "skipped",
+    "effect": null,
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 27,
+    "label": "Save view",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 28,
+    "label": "Queue Billing Retention Sales Support",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 29,
+    "label": "Channel Chat Voice",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 30,
+    "label": "Site All",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 31,
+    "label": "Demo",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 32,
+    "label": "Clear",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 33,
+    "label": "Queue + Channel Queue only Channel only Interval",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 34,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 35,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 36,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 37,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 38,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 39,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 40,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 41,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 42,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 43,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 44,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 45,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 46,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 47,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 48,
+    "label": "INPUT",
+    "tag": "INPUT",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/reports",
+    "lang": "en",
+    "idx": 49,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 0,
+    "label": "WFM Rescue Operations analytics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 1,
+    "label": "Toggle sidebar",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 2,
+    "label": "Dashboard",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 3,
+    "label": "Intraday",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 4,
+    "label": "Diagnostics",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 5,
+    "label": "Staffing",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 6,
+    "label": "Capacity",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 7,
+    "label": "Forecast vs Actual",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 8,
+    "label": "Service Level",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 9,
+    "label": "Occupancy",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 10,
+    "label": "NLH",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 11,
+    "label": "AUX Detail",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 12,
+    "label": "Attendance",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 13,
+    "label": "Adherence & AUX",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 14,
+    "label": "Report table",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 15,
+    "label": "Report Studio",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 16,
+    "label": "Import Data",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 17,
+    "label": "Data Explorer",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 18,
+    "label": "Data Health",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 19,
+    "label": "Settings",
+    "tag": "A",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 20,
+    "label": "Search… ⌘K",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 21,
+    "label": "Documentation",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 22,
+    "label": "Notifications",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 23,
+    "label": "Toggle theme",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 24,
+    "label": "AM Alex Manager demo@wfmrescue.app",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 25,
+    "label": "Save changes",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 26,
+    "label": "🇪🇸 Español Español",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "changed-content",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 27,
+    "label": "🇺🇸 English English",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 28,
+    "label": "Light",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 29,
+    "label": "Dark",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 30,
+    "label": "America/Bogotá (UTC-5) America/Lima (UTC-5) America/México (",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 31,
+    "label": "es-CO — Español (Colombia) en-US — English (US)",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 32,
+    "label": "5 minutes 15 minutes 30 minutes 60 minutes",
+    "tag": "SELECT",
+    "status": "ok",
+    "effect": "no-visible-change",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 33,
+    "label": "New profile",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 34,
+    "label": "New profile",
+    "tag": "BUTTON",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  },
+  {
+    "route": "/app/settings",
+    "lang": "en",
+    "idx": 35,
+    "label": "View definitions",
+    "tag": "A",
+    "status": "ok",
+    "effect": "navigated",
+    "errors": []
+  }
+]

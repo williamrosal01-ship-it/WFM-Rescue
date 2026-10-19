@@ -1,0 +1,21 @@
+/ controls= 16 done
+/pricing controls= 16 done
+/docs controls= 7 done
+/app/dashboard controls= 37 done
+/app/intraday controls= 35 done
+/app/service-level controls= 32 done
+/app/staffing controls= 32 done
+/app/adherence controls= 31 done
+/app/attendance controls= 31 done
+/app/aux-report controls= 32 done
+/app/capacity controls= 31 done
+/app/occupancy controls= 31 done
+/app/nlh controls= 31 done
+/app/forecast controls= 31 done
+/app/diagnostics controls= 33 done
+/app/data-health controls= 32 done
+/app/import controls= 25 done
+/app/reports controls= 47 done
+/app/settings controls= 42 done
+TALLY {"ok":560,"skipped":7}
+NO VISIBLE EFFECT (ok status): 156

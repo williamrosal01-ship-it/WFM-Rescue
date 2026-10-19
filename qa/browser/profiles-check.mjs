@@ -1,0 +1,14 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch({ args: ['--no-sandbox'] });
+const ctx = await b.newContext({ viewport: { width: 1366, height: 860 } });
+await ctx.addInitScript(() => { localStorage.setItem('wfm-locale','en'); localStorage.setItem('wfm-rescue-language-chosen','1'); });
+const p = await ctx.newPage(); const errs = []; p.on('pageerror', e => errs.push(e.message));
+await p.goto('http://127.0.0.1:3100/app/settings', { waitUntil: 'networkidle' });
+const count = () => p.evaluate(() => [...document.querySelectorAll('.space-y-2 > div .font-medium')].length);
+const before = await count();
+await p.getByRole('button', { name: /New profile/ }).click(); await p.waitForTimeout(200);
+const afterNew = await count();
+await p.getByRole('button', { name: 'Duplicate' }).first().click(); await p.waitForTimeout(200);
+const afterDup = await count();
+console.log(JSON.stringify({ before, afterNew, afterDup, pageErrors: errs.length }));
+await b.close();

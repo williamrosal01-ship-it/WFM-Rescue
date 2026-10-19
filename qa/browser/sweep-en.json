@@ -1,0 +1,34 @@
+{
+  "/": [],
+  "/pricing": [],
+  "/docs": [],
+  "/app/studio": [],
+  "/app/dashboard": [],
+  "/app/intraday": [],
+  "/app/service-level": [],
+  "/app/staffing": [],
+  "/app/adherence": [
+    "Bogotá"
+  ],
+  "/app/attendance": [
+    "Bogotá"
+  ],
+  "/app/aux-report": [
+    "Bogotá"
+  ],
+  "/app/capacity": [],
+  "/app/occupancy": [],
+  "/app/nlh": [],
+  "/app/forecast": [],
+  "/app/diagnostics": [],
+  "/app/data-health": [],
+  "/app/import": [],
+  "/app/reports": [],
+  "/app/settings": [
+    "Español",
+    "America/Bogotá (UTC-5)",
+    "America/México (UTC-6)",
+    "es-CO — Español (Colombia)",
+    "en-US — English (US)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "/": [
+    "Trazabilidad total",
+    "Si tu WFM actual no da abasto",
+    "Explorador de datos y Report Studio con datos demo",
+    "Report Studio: 9 plantillas, 6 tipos de gráfico, CSV e impresión a PDF"
+  ],
+  "/pricing": [
+    "Trazabilidad total",
+    "Si tu WFM actual no da abasto",
+    "Explorador de datos y Report Studio con datos demo",
+    "Report Studio: 9 plantillas, 6 tipos de gráfico, CSV e impresión a PDF"
+  ],
+  "/docs": [
+    "Tiempo promedio total por contacto: conversación + espera + trabajo posterior (ACW). Se usa para calcular carga (workload) y requerimiento.",
+    "Ocupación = (Tiempo de manejo total) / TiempoLogueadoProductivo",
+    "Porcentaje del tiempo que el agente está en la actividad correcta según su horario. Distinguir de 'conformidad' (total trabajado vs total programado).",
+    "Adherencia mide 'en la actividad correcta en el momento correcto'; Conformidad mide el total al final del día.",
+    "Total de tiempo trabajado versus programado; no penaliza desviaciones temporales si se recupera el tiempo."
+  ],
+  "/app/studio": [],
+  "/app/dashboard": [
+    "Faltan 5,205 agentes en total (suma de intervalos)"
+  ],
+  "/app/intraday": [
+    "SL actual"
+  ],
+  "/app/service-level": [],
+  "/app/staffing": [
+    "Requeridos (total intervalos)"
+  ],
+  "/app/adherence": [
+    "Análisis de adherencia al horario (momento correcto, actividad correcta), conformidad (total de horas), y códigos AUX con mayor impacto.",
+    "Tiempo AUX total",
+    "Adherencia mide conformidad con la actividad programada en cada intervalo; conformidad mide horas totales trabajadas. Un agente puede tener 100% conformance y baja adherence si trabajó horas completas pero en el momento equivocado."
+  ],
+  "/app/attendance": [],
+  "/app/aux-report": [
+    "Tiempo total AUX",
+    "Tamaño = tiempo total",
+    "Total"
+  ],
+  "/app/capacity": [
+    "FTE total requerido",
+    "Volumen total"
+  ],
+  "/app/occupancy": [],
+  "/app/nlh": [
+    "Horas pagadas (total)"
+  ],
+  "/app/forecast": [],
+  "/app/diagnostics": [
+    "Se detectaron 239 intervalos con personal insuficiente (menos del 95% del requerido). Déficit total: 1384.5 horas-agente. 104 de esos intervalos incumplieron el objetivo de SL.",
+    "Volumen total pronosticado: 69279.",
+    "Volumen total real: 76579."
+  ],
+  "/app/data-health": [
+    "Score total"
+  ],
+  "/app/import": [
+    "Importar otro archivo añadirá sus datos al conjunto actual. Si prefieres empezar de nuevo, limpia los datos desde la barra superior."
+  ],
+  "/app/reports": [],
+  "/app/settings": []
+}

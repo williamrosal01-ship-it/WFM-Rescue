@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# next.js / build output
+.next/
+out/
+build/
+dist/
+.netlify/
+*.tsbuildinfo
+
+# environment (never commit secrets)
+.env
+.env*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
